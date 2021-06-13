@@ -8,9 +8,9 @@ module.exports = {
     run: async(client, message)=>{
         let embed = new Discord.MessageEmbed()
         .setTitle(`Uptime`)
-        .setDescription(`Bot is online from\n**${pms(client.uptime)}**`)
+        .setDescription(`<a:Ez_Arrow:851020973690978324> Bot is online from\n**${pms(client.uptime)}**`)
         .setColor(`YELLOW`)
-        .setFooter(`Made with 💛 by iamAlex#9999`)
+        .setFooter(`Made with 💛 by iamAlex#9999`, message.author.displayAvatarURL({ dynamic: true }))
         message.channel.send(embed)
     }
 }
