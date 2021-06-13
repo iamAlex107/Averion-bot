@@ -1,33 +1,49 @@
-const Discord = require('discord.js');
-const client = new Discord.Client()
+const discord = require("discord.js");
 
 module.exports = {
-    name: "ban",
-    run: async(client, message, args)=>{
-        if(message.channel.type === 'dm') return message.channel.send('You cant use this commands in a dm')
-        if(message.member.hasPermission('BAN_MEMBERS')) {
-          if(message.guild.me.hasPermission('BAN_MEMBERS')) {
-       let member = message.mentions.members.first()
-       if(!member) return message.channel.send('Please mention someone or give their id to ban')
-       let reason = args.slice(1).join(" ")
-       if(!reason) reason = 'None Provided'
-       let banembed = new Discord.MessageEmbed()
-       .setTitle(`<a:CWS_WindowsLoading:850673613321142282> Member was succesfully banned!`)
-       .addField('Reason',`${reason}`)
-       .addField('Moderator', `${message.author.username}`)
-       .addField('Target', `${member}`)
-       .setColor('BLUE')
-       .setFooter(`Made with 💙 by iamAlex#9999`)
-       .setTimestamp()
-       message.channel.send(banembed)
-       member.ban()
-       let embed3 = new Discord.MessageEmbed()
-       .setTitle('Guild logs')
-       .setDescription(`${member} was banned by ${message.author.username} for ${reason}`)
-       message.guild.channels.cache.get('849985748978499605').send(embed3)
-     } else {
-       message.channel.send('I cant ban members, make sure i have ban members permission')
-     }
+  name: "ban",
+  category: "moderation",
+  usage: "ban <@user> <reason>",
+  run: async (client, message, args) => {
+    
+    const target = message.mentions.members.first()
+    
+    const reason = args.slice(1).join(" ")
+    
+    if(!message.member.hasPermission("BAN_MEMBERS")) return message.channel.send(`<a:crossGif:853559074833301504> **I cannot ban this user !**`)
+    
+    if(!message.guild.me.hasPermission("BAN_MEMBERS")) return message.channel.send(`<a:crossGif:853559074833301504> **You don't have the required permissions: Ban Member !**`)
+    
+    if(target === message.author) return message.channel.send("**You cannot ban yourself !**")
+
+    if(!args[0]) return message.channel.send(`**Does that user exist?**`)
+    
+    if(!target) return message.channel.send(`<a:crossGif:853559074833301504> **Please Mention a User !**`)
+    
+    if(target.roles.highest.position >= message.member.roles.highest.position) {
+      return message.channel.send(`<a:crossGif:853559074833301504> **This user has a role higher than me !**`)
     }
+    
+    
+    if(target.bannable) {
+      let embed = new discord.MessageEmbed()
+      .setTitle(`Member was successfully banned`)
+      .setColor("#00ffff")
+      .addField('<a:Ez_Arrow:851020973690978324> Target',`${target}`)
+      .addField('<a:Ez_Arrow:851020973690978324> Reason',`${reason}`)
+      .addField('<a:Ez_Arrow:851020973690978324> Moderator',`${message.author.tag}`)
+      .setFooter(`Made with 💙 by iamAlex#9999`, message.author.displayAvatarURL({ dynamic: true }))
+      .setTimestamp()
+      
+      message.channel.send(embed)
+      
+      target.ban()
+      
+      message.delete()
+      
+    } else {
+      return message.channel.send(`<a:crossGif:853559074833301504> **I was unable to ban the user !**`)
     }
-}
+    return undefined
+  }
+};
