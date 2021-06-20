@@ -39,7 +39,7 @@ module.exports = {
         .setTitle(`Asked by ${ message.author.username}`)
         .setDescription(`**Question asked:** ${question}\n**What I think of:** ${answer[Math.floor(Math.random() * answer.length)]}`)
         .setColor(`#00FFFF`)
-        .setFooter(`Made with 💙 by iamAlex#9999`, message.author.displayAvatarURL({ dynamic: true }))
+        .setFooter(`Made with 💙 by iamAlex#1306`, message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
         message.channel.send(embed);
     }
