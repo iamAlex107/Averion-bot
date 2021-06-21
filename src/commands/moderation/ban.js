@@ -16,7 +16,7 @@ module.exports = {
     
     if(target === message.author) return message.channel.send("**You cannot ban yourself !**")
 
-    if(!args[0]) return message.channel.send(`**Does that user exist?**`)
+    if(!args[0]) return message.channel.send(`<a:crossGif:853559074833301504> **Please Mention a User !**`)
     
     if(!target) return message.channel.send(`<a:crossGif:853559074833301504> **Please Mention a User !**`)
     
@@ -29,10 +29,10 @@ module.exports = {
       let embed = new discord.MessageEmbed()
       .setTitle(`Member was successfully banned`)
       .setColor("#00ffff")
-      .addField('<a:Ez_Arrow:851020973690978324> Target',`${target}`)
-      .addField('<a:Ez_Arrow:851020973690978324> Reason',`${reason}`)
-      .addField('<a:Ez_Arrow:851020973690978324> Moderator',`${message.author.tag}`)
-      .setFooter(`Made with 💙 by iamAlex#9999`, message.author.displayAvatarURL({ dynamic: true }))
+      .addField('<a:Arrow:851020973690978324> Target',`${target}`)
+      .addField('<a:Arrow:851020973690978324> Reason',`${reason}`)
+      .addField('<a:Arrow:851020973690978324> Moderator',`${message.author.tag}`)
+      .setFooter(`Made with 💙 by iamAlex#1306`, message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
       
       message.channel.send(embed)
