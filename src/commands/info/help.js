@@ -11,21 +11,21 @@ module.exports = {
         .setTitle(`Hey ${message.author.username}! Here are the commands :`)
         .setDescription(`**Page 1:** Index\n**Page 2:** Info\n**Page 3:** Fun`)
         .setColor(`#f5f500`)
-        .setFooter(`Made with 💚 by iamAlex#9999`, message.author.displayAvatarURL({ dynamic: true }))
+        .setFooter(`Made with 💚 by iamAlex#1306`, message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
 
         let embed1 = new Discord.MessageEmbed()
         .setTitle(`Info :`)
-        .setDescription(`<a:Ez_Arrow:851020973690978324> **ping** --> Shows the Bot ping\n<a:Ez_Arrow:851020973690978324> **info** --> Shows bot and developer information\n<a:Ez_Arrow:851020973690978324> **prefix** --> Shows the bot prefix\n<a:Ez_Arrow:851020973690978324> **uptime** --> Shows the uptime of the bot (alias: **online**)\n<a:Ez_Arrow:851020973690978324> **help** --> Shows the help page`)
+        .setDescription(`<a:Arrow:851020973690978324> **ping** --> Shows the Bot ping\n<a:Arrow:851020973690978324> **info** --> Shows bot and developer information\n<a:Arrow:851020973690978324> **prefix** --> Shows the bot prefix\n<a:Arrow:851020973690978324> **uptime** --> Shows the uptime of the bot (alias: **online**)\n<a:Arrow:851020973690978324> **avatar** --> Shows the avatar of the user (alias: **av**)\n<a:Arrow:851020973690978324> **help** --> Shows the help page`)
         .setColor(`#f59b00`)
-        .setFooter(`Made with 💚 by iamAlex#9999`,message.author.displayAvatarURL({ dynamic: true }))
+        .setFooter(`Made with 💚 by iamAlex#1306`,message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
 
         let embed2 = new Discord.MessageEmbed()
         .setTitle(`Fun`)
-        .setDescription(`<a:Ez_Arrow:851020973690978324> **rps** --> **rps** stands for Rock Paper Scissor\n<a:Ez_Arrow:851020973690978324> **8ball** --> Predict whatever you wish`)
+        .setDescription(`<a:Arrow:851020973690978324> **rps** --> **rps** stands for Rock Paper Scissor\n<a:Arrow:851020973690978324> **8ball** --> Predict whatever you wish\n<a:Arrow:851020973690978324> **coinflip** --> Flip a coin to find your luck !!`)
         .setColor(`#f57200`)
-        .setFooter(`Made with 💚 by iamAlex#9999`, message.author.displayAvatarURL({ dynamic: true }))
+        .setFooter(`Made with 💚 by iamAlex#1306`, message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
 
         let pages = [embed, embed1, embed2]
