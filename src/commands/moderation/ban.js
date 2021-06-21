@@ -17,6 +17,8 @@ module.exports = {
     if(target === message.author) return message.channel.send("**You cannot ban yourself !**")
 
     if(!args[0]) return message.channel.send(`<a:crossGif:853559074833301504> **Please Mention a User !**`)
+
+    if(!reason) return message.channel.send(`<a:crossGif:853559074833301504> **Please Provide a Reason !**`)
     
     if(!target) return message.channel.send(`<a:crossGif:853559074833301504> **Please Mention a User !**`)
     
