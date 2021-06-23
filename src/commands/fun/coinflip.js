@@ -8,7 +8,7 @@ module.exports = {
 
         const randomNumber = Math.floor(Math.random() * 2);
 
-        if(message.content === 'a!conflip h' || message.content === 'a!cf h' || message.content === 'a!conflip heads' || message.content === 'a!cf heads'){
+        if(message.content === 'a!coinflip h' || message.content === 'a!coinflip heads' || message.content === 'a!cf h' || message.content === 'a!cf heads'){
             if(randomNumber == 0){
                 let embed = new Discord.MessageEmbed()
                 .setTitle(`You lost !`)
@@ -23,7 +23,7 @@ module.exports = {
                 .setTitle(`You won !`)
                 .setDescription(`The coin flipped on heads side`)
                 .setColor(`#32CD32`)
-                .setThumbnail('https://cdn.discordapp.com/attachments/850260577892958209/853953830747504670/coins_tails.png')
+                .setThumbnail('https://cdn.discordapp.com/attachments/850260577892958209/853953797012979762/coins_heads.png')
                 .setFooter(`Made with 💚 by iamAlex#1306`, message.author.displayAvatarURL({dynamic: true}))
                 message.channel.send(embed)
 
@@ -34,7 +34,7 @@ module.exports = {
                 .setTitle(`You won !`)
                 .setDescription(`The coin flipped on tails side !`)
                 .setColor(`#32CD32`)
-                .setThumbnail('https://cdn.discordapp.com/attachments/850260577892958209/853953797012979762/coins_heads.png')
+                .setThumbnail('https://cdn.discordapp.com/attachments/850260577892958209/853953830747504670/coins_tails.png')
                 .setFooter(`Made with 💚 by iamAlex#1306`, message.author.displayAvatarURL({dynamic: true}))
                 message.channel.send(embed)
 
