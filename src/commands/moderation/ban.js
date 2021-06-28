@@ -23,7 +23,7 @@ module.exports = {
     if(!target) return message.channel.send(`<a:crossGif:853559074833301504> **Please Mention a User !**`)
     
     if(target.roles.highest.position >= message.member.roles.highest.position) {
-      return message.channel.send(`<a:crossGif:853559074833301504> **This user has a role higher than me !**`)
+      return message.channel.send(`<a:crossGif:853559074833301504> **You cannot ban this user !**`)
     }
     
     
