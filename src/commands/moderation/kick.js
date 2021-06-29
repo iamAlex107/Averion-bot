@@ -3,7 +3,7 @@ const discord = require("discord.js");
 module.exports = {
   name: "kick",
   category: "moderation",
-  usage: "ban <@user> <reason>",
+  usage: "kick <@user> <reason>",
   run: async (client, message, args) => {
     
     const target = message.mentions.members.first()
