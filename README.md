@@ -1,5 +1,14 @@
-# Averion-bot
-Averion is a multifunctional bot which is currently under development
+<h1> Averion Bot </h1>
+Averion is a multifunctional Discord bot which is currently under development.
+<hr>
 
-#### Here is the invite Link
-[Invite Link](https://discord.com/api/oauth2/authorize?client_id=851725121164541972&permissions=4227329783&scope=bot)
+<h2>Contents</h2>
+
+<hr>
+
+<h2>Info</h2>
+<p><b>Developer:</b> <a href = "https://github.com/iamAlex107">@iamAlex</a> <br>
+  <b>Coding Language:</b> JavaScript(JS) <br>
+  <b>Packages Used:</b> <a href = "https://github.com/iamAlex107/Averion-bot/blob/main/package.json">Click Here</a><br>
+  <b>Developer Discord Tag:</b> iamAlex#1306 <br>
+</p>
