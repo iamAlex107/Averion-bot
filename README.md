@@ -20,6 +20,6 @@ Averion is a multifunctional Discord bot which is currently under development.
 <h2>Changelogs</h2>
 <div>
   <ul>
-    <li>[4<sup>th</sup> July 2021] - Added <b>Enlarge, Purge, Mute, Calculator</b> Commands !</li>
+    <li>[4<sup>th</sup> July 2021] - Added <b>Enlarge, Purge, Mute, Calculator and Say</b> Commands !</li>
   </ul>
 </div>
