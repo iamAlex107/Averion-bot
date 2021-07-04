@@ -12,7 +12,7 @@ module.exports = {
 
 		let msg = await message.channel.send('**Generating avatar** 🍕...');
 
-        target = message.mentions.users.first();
+        target = message.mentions.users.first(); || message.guild.members.cache.get(args[0])
 
         if (!target)
             target = message.author;
