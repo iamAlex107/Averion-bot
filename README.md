@@ -3,7 +3,7 @@ Averion is a multifunctional Discord bot which is currently under development.
 <hr>
 
 <h2>Contents</h2>
-<a href = "https://github.com/iamAlex107/Averion-bot#info"> Info </a>
+- <a href = "https://github.com/iamAlex107/Averion-bot#info"> 🍞Info </a>
 
 <hr>
 
@@ -13,3 +13,12 @@ Averion is a multifunctional Discord bot which is currently under development.
   <b>Packages Used:</b> <a href = "https://github.com/iamAlex107/Averion-bot/blob/main/package.json">Click Here</a><br>
   <b>Developer Discord Tag:</b> iamAlex#1306 <br>
 </p>
+
+<hr>
+
+<h2>Changelogs</h2>
+<div>
+  <ul>
+    <li>[4<sup>th</sup> July 2021] - Added <b>Enlarge, Purge, Mute, Calculator</b> Commands !</li>
+  </ul>
+</div>
