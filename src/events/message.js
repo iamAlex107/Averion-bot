@@ -15,7 +15,7 @@ client.on('message', async message =>{
     if(!command) command = client.commands.get(client.aliases.get(cmd));
     if (command) {
         if(command.cooldown) {
-            if(Timeout.has(`${command.name}${message.author.id}`)) return message.channel.send(`You are on a \`${ms(Timeout.get(`${command.name}${message.author.id}`) - Date.now(), {long : true})}\` cooldown.`)
+            if(Timeout.has(`${command.name}${message.author.id}`)) return message.channel.send(`**You are on a \`${ms(Timeout.get(`${command.name}${message.author.id}`) - Date.now(), {long : true})}\` cooldown.**`)
             command.run(client, message, args)
             Timeout.set(`${command.name}${message.author.id}`, Date.now() + command.cooldown)
             setTimeout(() => {
