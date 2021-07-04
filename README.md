@@ -3,7 +3,8 @@ Averion is a multifunctional Discord bot which is currently under development.
 <hr>
 
 <h2>Contents</h2>
-- <a href = "https://github.com/iamAlex107/Averion-bot#info"> 🍞Info </a>
+- <a href = "https://github.com/iamAlex107/Averion-bot#info"> 🍞Info </a><br>
+- <a href = "https://github.com/iamAlex107/Averion-bot#changelogs"> 🛑Changelogs </a>
 
 <hr>
 
