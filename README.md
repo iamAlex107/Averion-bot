@@ -1,3 +1,4 @@
+![Banner](https://media.discordapp.net/attachments/862521425931010118/862521493283012628/Bot-Banner.png)
 <h1> Averion Bot </h1>
 Averion is a multifunctional Discord bot which is currently under development.
 <hr>
