@@ -14,7 +14,7 @@
 <hr>
 <h2>Contents</h2>
 - <a href = "https://github.com/iamAlex107/Averion-bot#faq"> FAQ </a><br>
-- <a href = "https://github.com/iamAlex107/Averion-bot#info"> Info </a><br>
+- <a href = "https://github.com/iamAlex107/Averion-bot#information-about-the-bot"> Info </a><br>
 - <a href = "https://github.com/iamAlex107/Averion-bot#softwares-and-languages"> Softwares and Languages Used </a><br>
 - <a href = "https://github.com/iamAlex107/Averion-bot#changelogs"> Changelogs </a>
 <hr>
@@ -42,30 +42,9 @@ You cannot self-host (running the a copy of code) <b>Averion</b> without prior p
 <h2>Changelogs</h2>
 <div>
   <ul>
-    <li>[8<sup>th</sup> July 2021] - Released Version 2.0 of <b>Averion</b> !</li>
+    <li>[8<sup>th</sup> July 2021] - Released Version 2.0 of <b>Averion</b> and a new Command: <b>Unmute</b> !</li>
     <li>[8<sup>th</sup> July 2021] - Added <b>User ID</b> Compatibility in Avatar Command !</li>
     <li>[4<sup>th</sup> July 2021] - Added <b>Enlarge, Purge, Mute, Calculator and Say</b> Commands !</li>
   </ul>
 </div>
-<!-- <h2>Contents</h2>
-- <a href = "https://github.com/iamAlex107/Averion-bot#info"> 🍞Info </a><br>
-- <a href = "https://github.com/iamAlex107/Averion-bot#changelogs"> 🛑Changelogs </a>
 
-<hr>
-
-<h2>Info</h2>
-<p><b>Developer:</b> <a href = "https://github.com/iamAlex107">@iamAlex</a> <br>
-  <b>Coding Language:</b> JavaScript(JS) <br>
-  <b>Packages Used:</b> <a href = "https://github.com/iamAlex107/Averion-bot/blob/main/package.json">Click Here</a><br>
-  <b>Developer Discord Tag:</b> iamAlex#1306 <br>
-</p>
-
-<hr>
-
-<h2>Changelogs</h2>
-<div>
-  <ul>
-    <li>[8<sup>th</sup> July 2021] - Added <id>User ID</b> Compatibility in Avatar Command !</li>
-    <li>[4<sup>th</sup> July 2021] - Added <b>Enlarge, Purge, Mute, Calculator and Say</b> Commands !</li>
-  </ul>
-</div> -->
