@@ -68,22 +68,3 @@ module.exports = {
 
 	}
 }
-// if (!target)
-// 	target = message.author;
-// let avatarURL = target.displayAvatarURL({
-// 	size: 4096,
-// 	dynamic: true	
-// });
-
-// const embed = new MessageEmbed()
-// 	.setTitle(`**Avatar of ${target.tag} **`)
-// 	.setImage(avatarURL)
-// 	.setColor(`#00FFFF`)
-// 	.setFooter(`Requested by ${message.author.tag}`, message.author.displayAvatarURL({dynamic: true}))
-// 	.setTimestamp();
-
-// message.channel.send(embed);
-
-// msg.delete();
-
-// let target = message.guild.members.cache.get('id')
