@@ -15,7 +15,7 @@
 <h2>Contents</h2>
 - <a href = "https://github.com/iamAlex107/Averion-bot#faq"> FAQ </a><br>
 - <a href = "https://github.com/iamAlex107/Averion-bot#info"> Info </a><br>
-- <a href = "https://github.com/iamAlex107/Averion-bot#softwares"> Softwares and Languages Used </a><br>
+- <a href = "https://github.com/iamAlex107/Averion-bot#softwares-and-languages"> Softwares and Languages Used </a><br>
 - <a href = "https://github.com/iamAlex107/Averion-bot#changelogs"> Changelogs </a>
 <hr>
 
