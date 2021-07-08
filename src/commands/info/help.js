@@ -30,7 +30,7 @@ module.exports = {
 
         let embed3 = new Discord.MessageEmbed()
         .setTitle(`Moderation`)
-        .setDescription(`<a:Arrow:851020973690978324> **ban** --> Ban's the targeted User !\n<a:Arrow:851020973690978324> **kick** --> Kick's the targeted User !\n<a:Arrow:851020973690978324> **mute** --> Mute's the targeted User !\n<a:Arrow:851020973690978324> **say** --> Send's the provided message! (alias: **msg**)\n<a:Arrow:851020973690978324> **purge** --> Delete the amount of messages you want (alias: **prune**)`)
+        .setDescription(`<a:Arrow:851020973690978324> **ban** --> Ban's the targeted User !\n<a:Arrow:851020973690978324> **kick** --> Kick's the targeted User !\n<a:Arrow:851020973690978324> **mute** --> Mute's the targeted User !\n<a:Arrow:851020973690978324> **unmute** --> Unmute's the targeted User !\n<a:Arrow:851020973690978324> **say** --> Send's the provided message! (alias: **msg**)\n<a:Arrow:851020973690978324> **purge** --> Delete the amount of messages you want (alias: **prune**)`)
         .setColor(`#f54a00`)
         .setFooter(`Made with 💚 by iamAlex#1306`, message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
