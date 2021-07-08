@@ -12,6 +12,16 @@ client.aliases = new Collection();
 client.categories = fs.readdirSync(path.resolve('src/commands'));
 ["command"].forEach(handler => {
     require(path.resolve(`src/handlers/${handler}`))(client);
-}); 
+});
+const mongoose = require('mongoose')
+mongoose.connect(config.MongoURI, {
+ useNewUrlParser: true,
+ useUnifiedTopology: true,
+ useFindAndModify: false,
+}).then(() => {
+  console.log('Averion has logged in to MongoDB')
+}).catch(err => {
+  console.log('MongooseError: ' +  err)
+})
 
 client.login(config.token);
