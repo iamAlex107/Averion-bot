@@ -3,7 +3,8 @@ const client = new Discord.Client();
 
 module.exports = {
     name: "mute",
-    usage: "mute <@user> <reason>",
+    usage: "`a!mute <@user> <reason>`",
+    description: "`Mute the targeted User`",
     run: async(client, message, args) => {
 
         const target = message.mentions.members.first()

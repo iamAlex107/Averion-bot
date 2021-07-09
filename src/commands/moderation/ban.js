@@ -4,7 +4,8 @@ const client = new Discord.Client();
 module.exports = {
     name: "ban",
     description: "Bans the targeted user",
-    usage: "ban <@user> <reason>",
+    usage: "`a!ban <@user> <reason>`",
+    cooldown: 5000,
     run: async(client, message, args)=>{
         const target = message.mentions.members.first();
         const reason = args.slice(1).join(" ");

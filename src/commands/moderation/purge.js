@@ -4,6 +4,8 @@ const client = new Discord.Client();
 module.exports = {
     name: "purge",
     aliases: ["prune"],
+    description: "Delete the amount of messages you want in an instant",
+    usage: "`a!purge <amount>`",
     cooldown: 10000,
     run: async(client, message, args)=>{
         if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send(`<a:crossGif:853559074833301504> **You don't have the required permissions: Manage Messages !**`);

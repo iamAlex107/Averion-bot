@@ -4,7 +4,8 @@ const client = new Discord.Client();
 module.exports = {
     name: "kick",
     description: "Kicks the targeted user",
-    usage: "kick <@user> <reason>",
+    usage: "`a!kick <@user> <reason>`",
+    cooldown: 5000,
     run: async(client, message, args)=>{
         const target = message.mentions.members.first();
         var reason = args.slice(1).join(" ");
