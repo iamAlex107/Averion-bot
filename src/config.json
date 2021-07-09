@@ -1,4 +1,5 @@
 {
     "token": "token",
-    "prefix": "a!"
+    "prefix": "a!",
+    "MongoURL": "the url of the cluster"
 }
