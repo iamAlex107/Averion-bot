@@ -5,6 +5,10 @@ const client = new Discord.Client();
 
 module.exports = {
     name: "8ball",
+    desciption: "Predict your questions while using this command",
+    usage: "`a!8ball <question>`",
+    cooldown: 5000,
+
     run: async(client, message, args)=>{
         const answer = [
             'It is certain.',

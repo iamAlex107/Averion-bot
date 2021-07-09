@@ -5,6 +5,9 @@ const math = require('math-expression-evaluator');
 module.exports = {
     name: "calculator",
     aliases: ["calc", "math"],
+    description: "An inbuilt calculator for the Bot",
+    usage: "`a!calculator <math_question>`, `a!calc <question>`, `a!math <question>`",
+    cooldown: 5000,
     run: async(client, message, args)=>{
         if (args.length < 1) return message.channel.send(`<a:crossGif:853559074833301504> **Please a provide a question to be solved on the Calculator !**`)
 

@@ -4,6 +4,8 @@ const client = new Discord.Client();
 module.exports = {
     name: "coinflip",
     aliases: ["cf"],
+    description: "Flip a coin to find where it will land",
+    usage: "`a!coinflip <choice>`, `a!cf <choice>`",
     run: async(client, message)=>{
 
         const randomNumber = Math.floor(Math.random() * 2);

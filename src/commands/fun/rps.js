@@ -3,6 +3,9 @@ const client = new Discord.Client()
 
 module.exports = {
     name: "rps",
+    usage: "`a!rps <choice>`",
+    description: "RPS stands for Rock Paper Scissors. Play it against the Bot",
+    cooldown: 10000,
     run: async(client, message)=>{
         const botChoice = Math.floor(Math.random() * 3);
         if(botChoice == 0){
