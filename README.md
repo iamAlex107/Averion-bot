@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/License-Apache--2.0--License-green?style=for-the-badge&label=License&logo=apache">
   <br>
   <em>Made with ❤ by <b>iamAlex107</b></em><br>
-  <b>Averion is multi-functional Discord Bot which is made by iamAlex. The bot is currently under development. It is friendly to use this bot as well as it is made comfortable to people who are new to Discord.</b>
+  <b>Averion is multi-functional Discord Bot which is made by iamAlex. The bot is currently under development. It is friendly to use this bot as well as it is made comfortable to people who are new to Discord. <a href = "https://discord.com/api/oauth2/authorize?client_id=851725121164541972&permissions=4227329783&scope=bot">Click here to Invite it.</a></b>
 </div>
 <hr>
 <h2>Contents</h2>
@@ -32,6 +32,7 @@ You cannot self-host (running the a copy of code) <b>Averion</b> without prior p
 <b>Developer:</b> <a href = "https://github.com/iamAlex107">@iamAlex</a> <br>
 <b>Coding Language:</b> JavaScript(JS) <br>
 <b>Developer's Discord Tag:</b> <a href = "https://discordapp.com/users/720990078981111888">iamAlex#1306</a> <br>
+<b>Invite Link:</b> <a href = "https://discord.com/api/oauth2/authorize?client_id=851725121164541972&permissions=4227329783&scope=bot">Click here</a> <br>
 <b>Powered by</b> <a href = "https://github.com/aditya616">@aditya616</a>
 <hr>
 
