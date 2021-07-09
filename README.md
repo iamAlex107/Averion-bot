@@ -43,6 +43,7 @@ You cannot self-host (running the a copy of code) <b>Averion</b> without prior p
 <h2>Changelogs</h2>
 <div>
   <ul>
+    <li>[9<sup>th</sup> July 2021] - Changed looks of all the <b>Commands</b> and added a new Command name <b>Embed</b> as well as changed the UI of <b>Help Command</b> !</li>
     <li>[8<sup>th</sup> July 2021] - Released Version 2.0 of <b>Averion</b> and a new Command: <b>Unmute</b> !</li>
     <li>[8<sup>th</sup> July 2021] - Added <b>User ID</b> Compatibility in Avatar Command !</li>
     <li>[4<sup>th</sup> July 2021] - Added <b>Enlarge, Purge, Mute, Calculator and Say</b> Commands !</li>
