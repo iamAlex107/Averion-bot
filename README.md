@@ -12,12 +12,6 @@
   <b>Averion is multi-functional Discord Bot which is made by iamAlex. The bot is currently under development. It is friendly to use this bot as well as it is made comfortable to people who are new to Discord. <a href = "https://discord.com/api/oauth2/authorize?client_id=851725121164541972&permissions=4227329783&scope=bot">Click here to Invite it.</a></b>
 </div>
 <hr>
-<h2>Contents</h2>
-- <a href = "https://github.com/iamAlex107/Averion-bot#faq"> FAQ </a><br>
-- <a href = "https://github.com/iamAlex107/Averion-bot#information-about-the-bot"> Info </a><br>
-- <a href = "https://github.com/iamAlex107/Averion-bot#softwares-and-languages"> Softwares and Languages Used </a><br>
-- <a href = "https://github.com/iamAlex107/Averion-bot#changelogs"> Changelogs </a>
-<hr>
 
 <h2>FAQ</h2>
 <h3>How do I report a Bug or Contribute Code?</h3>
@@ -36,9 +30,6 @@ You cannot self-host (running the a copy of code) <b>Averion</b> without prior p
 <b>Powered by</b> <a href = "https://github.com/aditya616">@aditya616</a>
 <hr>
 
-<h2>Softwares and Languages</h2>
-<p align = "left"><a href = "https://code.visualstudio.com" target = "_blank"> <img src = "https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" width = "40"> </a> <a href = "https://www.jetbrains.com/webstorm/"> <img src = "https://github.com/iamAlex107/iamAlex107/blob/main/images/webstorm_logo_300x300.png" width = "40"> </a> <a href = "https://www.jetbrains.com"> <img src = "https://github.com/iamAlex107/iamAlex107/blob/main/images/1200px-JetBrains_Logo_2016.svg.png" width = "40"> </a> <a href = "https://atom.io"> <img src = "https://github.com/devicons/devicon/blob/master/icons/atom/atom-original.svg" width = "40"> </a> <a href = "https://github.com/iamAlex107"> <img src = "https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" width = "40"> </a> <a href = "https://www.google.com"> <img src = "https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" width = "40"> </a> <a href = "https://www.w3schools.com/js"> <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" width = "40"> </a> <a href = "https://www.mongodb.com/"> <img src = "https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" width = "40"> </a> <a href = "https://nodejs.org/en/"> <img src = "https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" width = "40"> </a> <a href = "https://www.npmjs.com"> <img src = "https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" width = "40"> </a> <a href = "https://discord.js.org/#/"> <img src = "https://github.com/iamAlex107/iamAlex107/blob/main/images/djs.png" width = "40"> </a></p>
-<hr>
 
 <h2>Changelogs</h2>
 <div>
