@@ -1,17 +1,16 @@
 const Discord = require('discord.js');
 const dig = require('discord-image-generation');
-const client = new Discord.Client();
+const client = new Discord.Client()
 
 module.exports = {
-    name: "wanted",
-    description: "Create a Wanted Poster of yours or the Targeted User",
-    usage: "`a!wanted`, `a!wanted <@user>`, `a!wanted <userID>`",
+    name: "bobross",
+    usage: "`a!bobross`, `a!bobross <@user>`, `a!bobross <userID>`",
+    description: "Display a User's Avatar in BobRoss's painting !",
     run: async(client, message, args) => {
         if (!args[0]){
             let av = message.author.displayAvatarURL({ dynamic: false, format: 'png' });
-            let currency = `$`;
-            let img = await new dig.Wanted().getImage(av, currency);
-            let attach = new Discord.MessageAttachment(img, "wanted.png");
+            let img = await new dig.Bobross().getImage(av);
+            let attach = new Discord.MessageAttachment(img, "bobross.png");
             return message.channel.send(attach)
         }
         
@@ -24,17 +23,15 @@ module.exports = {
         let target = args[0];
         if (!isNaN(target)){
             target = message.guild.members.cache.get(args[0]);
-            let currency = `$`;
             let av = target.user.displayAvatarURL({ dynamic: false, format: 'png' });
-            let img = await new dig.Wanted().getImage(av, currency);
-            let attach = new Discord.MessageAttachment(img, "wanted.png")
+            let img = await new dig.Bobross().getImage(av);
+            let attach = new Discord.MessageAttachment(img, "bobross.png")
             message.channel.send(attach)
         }else {
             target = message.mentions.users.first();
-            let currency = `$`;
             let av = target.displayAvatarURL({ dynamic: false, format: 'png' });
-            let img = await new dig.Wanted().getImage(av, currency);
-            let attach = new Discord.MessageAttachment(img, "wanted.png")
+            let img = await new dig.Bobross().getImage(av);
+            let attach = new Discord.MessageAttachment(img, "bobross.png")
             message.channel.send(attach)
         }
     }
