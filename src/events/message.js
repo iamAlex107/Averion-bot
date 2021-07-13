@@ -1,12 +1,16 @@
 const client = require('../../src/index')
-const prefix = client.prefix;
 const { Collection } = require('discord.js');
 const Timeout = new Collection();
 const ms = require('ms')
 
 client.on('message', async message =>{
     if(message.author.bot) return;
+
+    const prefixes = ['a!', '<@!851725121164541972>'];
+	const prefix = prefixes.find(p => message.content.toLowerCase().startsWith(p));
+
     if(!message.content.startsWith(prefix)) return;
+    if(message.content.includes('@everyone') || message.content.includes('@here')) return;
     if(!message.guild) return;
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const cmd = args.shift().toLowerCase();
