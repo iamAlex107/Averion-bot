@@ -27,7 +27,7 @@ You cannot self-host (running the a copy of code) <b>Averion</b> without prior p
 <b>Coding Language:</b> JavaScript(JS) <br>
 <b>Developer's Discord Tag:</b> <a href = "https://discordapp.com/users/720990078981111888">iamAlex#1306</a> <br>
 <b>Invite Link:</b> <a href = "https://discord.com/api/oauth2/authorize?client_id=851725121164541972&permissions=4227329783&scope=bot">Click here</a> <br>
-<b>Powered by</b> <a href = "https://github.com/Legend108">@Legend108</a>
+<b>Powered by</b> <a href = "https://github.com/Legend108" target="_blank">@Legend108</a>
 <hr>
 
 
